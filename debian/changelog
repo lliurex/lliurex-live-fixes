@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.2.1) bionic; urgency=medium
+
+  * dummy upgrade
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 16 Jan 2019 09:39:00 +0100
+
 lliurex-live-fixes (0.2) bionic; urgency=high
 
   * diverting amd64 microcode hook as well
