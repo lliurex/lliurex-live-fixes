@@ -1,0 +1,14 @@
+Source: lliurex-live-fixes
+Section: x11
+Priority: optional
+Maintainer: LliureX Team <lliurex@gva.es>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.7
+
+
+Package: lliurex-live-fixes
+Architecture: all
+Section: x11
+Depends: ${misc:Depends}
+Description: LliureX's 16 live fixes
+ LliureX fixes to allow creation of isos using kernel 4.4.0-127

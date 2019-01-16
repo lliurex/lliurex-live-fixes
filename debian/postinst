@@ -1,0 +1,33 @@
+#!/bin/bash
+
+set -e
+
+
+if  [ "$1" = "configure" ] ; then
+
+	PKG="lliurex-live-fixes"
+
+	ORIGINAL_MICROCODE_FILE="/usr/share/initramfs-tools/hooks/intel_microcode"
+	DIVERTED_MICROCODE="/usr/share/lliurex-live-fixes/diversions/intel_microcode"
+
+
+	if [ ! -e "DIVERTED_MICROCODE" ]; then
+		dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
+	fi
+
+
+	ORIGINAL_MICROCODE_FILE="/usr/share/initramfs-tools/hooks/amd64_microcode"
+	DIVERTED_MICROCODE="/usr/share/lliurex-live-fixes/diversions/amd64_microcode"
+
+
+	if [ ! -e "DIVERTED_MICROCODE" ]; then
+		dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
+	fi
+
+
+fi
+
+#DEBHELPER#
+
+exit 0
+

@@ -1,0 +1,11 @@
+lliurex-live-fixes (0.2) bionic; urgency=high
+
+  * diverting amd64 microcode hook as well
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 19 Sep 2018 17:00:26 +0200
+
+lliurex-live-fixes (0.1) xenial; urgency=high
+
+  * Initial release.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 11 Jun 2018 18:35:45 +0200
