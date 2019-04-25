@@ -30,7 +30,7 @@ if  [ "$1" = "configure" ] ; then
 
 
         if [ ! -e "DIVERTED_MYSQL" ]; then
-                dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
+                dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MYSQL" "$ORIGINAL_MYSQL_FILE"
 		ln -s /bin/true /usr/sbin/mysqld
         fi
 
