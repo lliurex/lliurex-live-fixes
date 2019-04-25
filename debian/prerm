@@ -28,6 +28,23 @@ if [ "$1" = "remove" ] ; then
         fi
 
 
+        ORIGINAL_MYSQL_FILE="/usr/sbin/mysqld"
+        DIVERTED_MYSQL="/usr/share/lliurex-live-fixes/diversions/mysqld"
+
+
+        if [ ! -e "DIVERTED_MYSQL" ]; then
+
+		if [ -L "/usr/sbin/mysqld" ]; then
+			rm -rf /usr/sbin/mysqld
+		fi
+
+		dpkg-divert --remove --package ${PKG} --rename --divert "$DIVERTED_MYSQL" "$ORIGINAL_MYSQL_FILE"
+        fi
+
+
+
+
+
 
 fi
 #DEBHELPER#

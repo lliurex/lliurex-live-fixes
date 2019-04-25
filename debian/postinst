@@ -25,6 +25,20 @@ if  [ "$1" = "configure" ] ; then
 	fi
 
 
+        ORIGINAL_MYSQL_FILE="/usr/sbin/mysqld"
+        DIVERTED_MYSQL="/usr/share/lliurex-live-fixes/diversions/mysqld"
+
+
+        if [ ! -e "DIVERTED_MYSQL" ]; then
+                dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
+		ln -s /bin/true /usr/sbin/mysqld
+        fi
+
+
+
+
+
+
 fi
 
 #DEBHELPER#
