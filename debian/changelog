@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.4-1) bionic; urgency=high
+
+  * Fixed prerm 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 03 Jun 2019 09:54:37 +0200
+
 lliurex-live-fixes (0.4) bionic; urgency=medium
 
   * Adding n4d one-shots support
