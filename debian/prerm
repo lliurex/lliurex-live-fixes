@@ -49,7 +49,16 @@ if [ "$1" = "remove" ] ; then
 
 
 
+	N4D_ONESHOT_DIR="/etc/n4d/one-shot/"
+	PACKAGE_ONESHOTS_DIR="/usr/share/lliurex-live-fixes/n4d-oneshots"
 
+	if [ ! -d $N4D_ONESHOT_DIR ]; then
+	
+		mkdir -p $N4D_ONESHOT_DIR || true
+
+	fi
+
+	cp "$PACKAGE_ONESHOTS_DIR/*" $N4D_ONESHOT_DIR || true
 
 
 fi
