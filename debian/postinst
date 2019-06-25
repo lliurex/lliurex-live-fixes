@@ -34,7 +34,7 @@ if  [ "$1" = "configure" ] ; then
 		ln -s /bin/true /usr/sbin/mysqld
         fi
 
-
+	cp /usr/share/lliurex-live-fixes/mos/*.mo /usr/share/locale/ca@valencia/LC_MESSAGES/ 
 
 
 
