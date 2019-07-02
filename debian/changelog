@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.7) bionic; urgency=medium
+
+  * More aggresive grep to set ca_ES.utf8@valencia in live session
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 02 Jul 2019 14:20:59 +0200
+
 lliurex-live-fixes (0.6) bionic; urgency=medium
 
   * Add openssh casper script
