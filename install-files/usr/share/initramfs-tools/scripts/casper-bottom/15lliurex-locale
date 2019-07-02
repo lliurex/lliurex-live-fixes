@@ -9,7 +9,7 @@ prereqs()
 }
 
 
-CA_LANG="ca_ES.utf8@valencia"
+CA_LANG="@valencia"
 LOCALE_FILE="/root/etc/default/locale"
 LOCALE_GEN_FILE="/root/etc/locale.gen"
 
