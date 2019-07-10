@@ -1,20 +1,20 @@
-lliurex-live-fixes (0.5.2) bionic; urgency=medium
+lliurex-live-fixes (0.7.1) bionic; urgency=medium
 
-  * new mos
+  * removed lc_all
 
- -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 25 Jun 2019 11:38:04 +0200
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2019 11:58:33 +0200
 
-lliurex-live-fixes (0.5.1-1) bionic; urgency=medium
+lliurex-live-fixes (0.7) bionic; urgency=medium
 
-  * Testing mo files
+  * More aggresive grep to set ca_ES.utf8@valencia in live session
 
- -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 25 Jun 2019 09:50:03 +0200
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 02 Jul 2019 14:20:59 +0200
 
-lliurex-live-fixes (0.5.1) bionic; urgency=medium
+lliurex-live-fixes (0.6) bionic; urgency=medium
 
-  * Being a bit more aggresive with locale setup
+  * Add openssh casper script
 
- -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 21 Jun 2019 11:44:43 +0200
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 27 Jun 2019 14:29:51 +0200
 
 lliurex-live-fixes (0.5) bionic; urgency=medium
 
