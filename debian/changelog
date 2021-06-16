@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.8) focal; urgency=medium
+
+  * Focal release 
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 16 Jun 2021 18:56:45 +0200
+
 lliurex-live-fixes (0.7.1) bionic; urgency=medium
 
   * removed lc_all
