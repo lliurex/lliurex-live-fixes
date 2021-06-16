@@ -10,5 +10,5 @@ Package: lliurex-live-fixes
 Architecture: all
 Section: x11
 Depends: ${misc:Depends}
-Description: LliureX's 16 live fixes
- LliureX fixes to allow creation of isos using kernel 4.4.0-127
+Description: LliureX's 21 live fixes
+ LliureX fixes to some common problems
