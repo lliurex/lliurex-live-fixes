@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.9) focal; urgency=medium
+
+  * Add sddm config to live
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 30 Jun 2021 13:10:40 +0200
+
 lliurex-live-fixes (0.8) focal; urgency=medium
 
   * Focal release 
