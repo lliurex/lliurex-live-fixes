@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.10) focal; urgency=medium
+
+  * Disable autologin
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 01 Jul 2021 16:54:28 +0200
+
 lliurex-live-fixes (0.9.1) focal; urgency=medium
 
   * Relocate sddm config
