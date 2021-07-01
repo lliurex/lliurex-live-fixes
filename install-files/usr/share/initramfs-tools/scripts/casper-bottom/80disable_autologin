@@ -1,0 +1,25 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="Disable autologin"
+
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+. /scripts/casper-functions
+
+log_begin_msg "$DESCRIPTION"
+# Only in casper mode
+rc=0
+rm /etc/sddm.conf || true
+log_end_msg
