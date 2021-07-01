@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.10.1) focal; urgency=medium
+
+  * fix path
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 01 Jul 2021 18:38:02 +0200
+
 lliurex-live-fixes (0.10) focal; urgency=medium
 
   * Disable autologin
