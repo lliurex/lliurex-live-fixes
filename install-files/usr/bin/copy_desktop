@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import gettext
+from pathlib import Path
+from shutil import copy
+import os
+_ = gettext.gettext
+t = gettext.translation("xdg-user-dirs",localedir="/usr/share/locale")
+t.install()
+new_folder = t.gettext("Desktop")
+
+f = Path("/home/{user}/Desktop/calamares.desktop".format(user=os.environ["USER"]))
+d = Path("/home/{user}/{new_folder}/calamares.desktop".format(user=os.environ["USER"],new_folder=new_folder))
+
+if f.exists():
+    copy(str(f),str(d))
