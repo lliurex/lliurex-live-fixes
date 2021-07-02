@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.11) focal; urgency=medium
+
+  * Copy calamares desktop installer file on Desktop translated folder
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 02 Jul 2021 12:48:59 +0200
+
 lliurex-live-fixes (0.10.1) focal; urgency=medium
 
   * fix path
