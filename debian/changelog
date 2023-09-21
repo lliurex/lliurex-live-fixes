@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.12.1) jammy; urgency=medium
+
+  * fix postinst
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 21 Sep 2023 16:30:10 +0200
+
 lliurex-live-fixes (0.12) jammy; urgency=medium
 
   * First jammy version
