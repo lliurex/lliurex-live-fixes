@@ -2,8 +2,8 @@ Source: lliurex-live-fixes
 Section: x11
 Priority: optional
 Maintainer: LliureX Team <lliurex@gva.es>
-Build-Depends: debhelper (>= 7)
-Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
 
 
 Package: lliurex-live-fixes
