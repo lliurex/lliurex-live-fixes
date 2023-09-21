@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.12) jammy; urgency=medium
+
+  * First jammy version
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 21 Sep 2023 09:24:15 +0200
+
 lliurex-live-fixes (0.11) focal; urgency=medium
 
   * Copy calamares desktop installer file on Desktop translated folder
