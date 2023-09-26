@@ -10,28 +10,28 @@ if [ "$1" = "remove" ] ; then
 	ORIGINAL_MICROCODE_FILE="/usr/share/initramfs-tools/hooks/intel_microcode"
 	DIVERTED_MICROCODE="/usr/share/lliurex-live-fixes/diversions/intel_microcode"
 	
-	if [ -e "$DIVERTED_MICROCODE" ]; then
-		if [ -e $ORIGINAL_MICROCODE_FILE ]; then
-			rm $ORIGINAL_MICROCODE_FILE || true
-		fi
-                dpkg-divert --remove --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
+	#if [ -e "$DIVERTED_MICROCODE" ]; then
+	#	if [ -e $ORIGINAL_MICROCODE_FILE ]; then
+	#		rm $ORIGINAL_MICROCODE_FILE || true
+	#	fi
+        #       dpkg-divert --remove --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
 		
 
-        fi
+        #fi
 
 	ORIGINAL_MICROCODE_FILE="/usr/share/initramfs-tools/hooks/amd64_microcode"
 	DIVERTED_MICROCODE="/usr/share/lliurex-live-fixes/diversions/amd64_microcode"
 	
-	if [ -e "$DIVERTED_MICROCODE" ]; then
+	#if [ -e "$DIVERTED_MICROCODE" ]; then
 
-		if [ -e $ORIGINAL_MICROCODE_FILE ]; then
-                        rm $ORIGINAL_MICROCODE_FILE || true
-                fi
+	#	if [ -e $ORIGINAL_MICROCODE_FILE ]; then
+        #                rm $ORIGINAL_MICROCODE_FILE || true
+        #        fi
 
-                dpkg-divert --remove --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
+        #        dpkg-divert --remove --package ${PKG} --rename --divert "$DIVERTED_MICROCODE" "$ORIGINAL_MICROCODE_FILE"
 		
 
-        fi
+        #fi
 
 
         ORIGINAL_MYSQL_FILE="/usr/sbin/mysqld"
