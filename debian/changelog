@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.13) jammy; urgency=medium
+
+  * Fix attributes on autostart file
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Sat, 10 Feb 2024 15:50:34 +0100
+
 lliurex-live-fixes (0.12.1) jammy; urgency=medium
 
   * fix postinst
