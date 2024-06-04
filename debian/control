@@ -1,14 +1,18 @@
 Source: lliurex-live-fixes
-Section: x11
+Section: x11 
 Priority: optional
-Maintainer: LliureX Team <lliurex@gva.es>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.1.2
-
+Maintainer: LliureX Team <lliurex@gva.es>  
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://lliurex.net
+Vcs-Git: https://github.com/lliurex/lliurex-live-fixes.git
 
 Package: lliurex-live-fixes
 Architecture: all
-Section: x11
-Depends: ${misc:Depends}
-Description: LliureX's 21 live fixes
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: LliureX's 25 live fixes
  LliureX fixes to some common problems
