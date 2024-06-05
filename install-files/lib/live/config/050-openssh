@@ -1,0 +1,9 @@
+#!/bin/sh
+
+RC=0
+dpkg -l openssh-server || RC=1
+
+if [ $RC = 0 ];then
+	dpkg-reconfigure openssh-server
+fi
+
