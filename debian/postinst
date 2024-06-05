@@ -29,7 +29,7 @@ case "$1" in
         if [ ! -e "DIVERTED_MYSQL" ]; then
                 dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MYSQL" "$ORIGINAL_MYSQL_FILE"
 		ln -s /bin/true /usr/sbin/mysqld
-
+	fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
