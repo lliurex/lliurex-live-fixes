@@ -1,0 +1,4 @@
+#!/bin/sh
+[ -e /home/lliurex/Desktop ] || mkdir /home/lliurex/Desktop
+chown lliurex:lliurex /home/lliurex/Desktop
+cp /usr/share/applications/calamares.desktop /home/lliurex/Desktop/
