@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.5) noble; urgency=medium
+
+  * Add script to mount cdrom 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 02 Jul 2024 10:35:20 +0200
+
 lliurex-live-fixes (0.4) noble; urgency=medium
 
   * Add script to copy calamares desktop to Desktop folder 
