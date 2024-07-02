@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -e /cdrom ] || mkdir /cdrom
+mount --bind /usr/lib/live/mount/medium /cdrom
