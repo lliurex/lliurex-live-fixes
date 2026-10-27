@@ -30,6 +30,7 @@ case "$1" in
                 dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MYSQL" "$ORIGINAL_MYSQL_FILE"
 		ln -s /bin/true /usr/sbin/mysqld
 	fi
+	systemctl mask lliurex-auto-upgrade.service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
