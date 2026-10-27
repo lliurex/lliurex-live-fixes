@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.7) noble; urgency=medium
+
+  * Disable lliurex-auto-upgrade on live 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 27 Oct 2026 10:35:59 +0100
+
 lliurex-live-fixes (0.6) noble; urgency=medium
 
   * Remove lliurex password
