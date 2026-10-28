@@ -33,7 +33,8 @@ if  [ "$1" = "configure" ] ; then
                 dpkg-divert --add --package ${PKG} --rename --divert "$DIVERTED_MYSQL" "$ORIGINAL_MYSQL_FILE"
 		ln -s /bin/true /usr/sbin/mysqld
         fi
-
+	
+	systemctl mask lliurex-auto-upgrade.service
 fi
 
 #DEBHELPER#

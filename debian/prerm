@@ -59,7 +59,7 @@ if [ "$1" = "remove" ] ; then
 	fi
 
 	cp "$PACKAGE_ONESHOTS_DIR"/* $N4D_ONESHOT_DIR || true
-
+	systemctl unmask lliurex-auto-upgrade.service
 
 fi
 #DEBHELPER#

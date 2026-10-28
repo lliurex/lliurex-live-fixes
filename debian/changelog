@@ -1,3 +1,9 @@
+lliurex-live-fixes (0.14) jammy; urgency=medium
+
+  * Disable lliurex-auto-upgrade on live 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 28 Oct 2026 12:06:40 +0100
+
 lliurex-live-fixes (0.13) jammy; urgency=medium
 
   * Fix attributes on autostart file
